@@ -8,3 +8,4 @@ while num<=given:
     num+=1 
 
 print(f"factors count = {c}")
+ 
