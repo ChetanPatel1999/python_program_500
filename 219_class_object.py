@@ -16,11 +16,11 @@ class mouse():
 
 m1=mouse()
 m1.setMouse("HP","black",4.5,600)
+
+m2= mouse()
+m2.setMouse("Fronttech","red",2.4,400)
+
 m1.getMouse()
-
-
-m2=mouse()
-m2.setMouse("frontech","red",2.5,300)
 m2.getMouse()
 
 
