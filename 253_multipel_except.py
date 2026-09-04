@@ -7,8 +7,14 @@ try:
   print("division : ",c)
   index=int((input("enter index : "))) #9
   print("elemen at index : ",l1[index])
-except:
+except ZeroDivisionError:
   print("zero division error")  
+except IndexError as e:
+  print(e)  
+except ValueError:
+  print("wrong input")  
+except:
+  print("someting is wrong")  
 print("division program run succefully")
 
 print("this is addition app :")
